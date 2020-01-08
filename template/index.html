@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Vuetify Parallax Starter</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/@mdi/font@3.x/css/materialdesignicons.min.css" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="stylesheet.css">
+</head>
+<body>
+ <div id="app">
+   <v-app light>
+    <v-content>
+      <section>
+        <v-parallax src="https://res.cloudinary.com/mantitties/image/upload/v1578470671/Website_Background_la6acc.jpg" height="1100">
+          <v-layout
+            column
+            align-center
+            justify-center
+            class="white--text"
+          >
+            <img src="https://res.cloudinary.com/mantitties/image/upload/v1578468180/Pour_Decisions_Logo_with_text_esattr.png" alt="Vuetify.js" height="800">
+
+
+            <v-btn
+              class="mt-12"
+              color="blue lighten-2"
+              dark
+              large
+              href="/pre-made-themes"
+            >
+              Get Started
+            </v-btn>
+          </v-layout>
+        </v-parallax>
+      </section>
+
+      <section>
+        <v-layout
+          column
+          wrap
+          class="my-12"
+          align-center
+        >
+          <v-flex xs12 sm4 class="my-4">
+            <div class="text-center">
+              <h2 class="headline">Finely crafted ales</h2>
+              <span class="subheading">
+                Siem Reap, Cambodia
+              </span>
+            </div>
+          </v-flex>
+          <v-flex xs12>
+            <v-container grid-list-xl>
+              <v-layout row wrap align-center>
+                <v-flex xs12 md4>
+                  <v-card flat class="transparent">
+                    <v-card-text class="text-center">
+                      <v-icon x-large class="orange--text text--lighten-2">mdi-beer</v-icon>
+                    </v-card-text>
+                    <v-card-title primary-title class="layout justify-center">
+                      <div class="headline text-center">Our Vision</div>
+                    </v-card-title>
+                    <v-card-text>
+                      Simply put, we love good beer.  Our dream is to spread delicious craft beer all across Cambodia.  All over the world, people find themselves connecting over a shared drink, and we hope to contribute to that great tradition by making exceptional and affordable beer.  
+                    </v-card-text>
+                  </v-card>
+                </v-flex>
+                <v-flex xs12 md4>
+                  <v-card flat class="transparent">
+                    <v-card-text class="text-center">
+                      <v-icon x-large class="orange--text text--lighten-2">mdi-help-circle-outline</v-icon>
+                    </v-card-text>
+                    <v-card-title primary-title class="layout justify-center">
+                      <div class="headline">Why Cambodia</div>
+                    </v-card-title>
+                    <v-card-text>
+                      You will find amazing people anywhere you go, but Cambodia has some of the most friendly and inviting people out of anywhere.  The locals have an amazing way of making you feel like part of the family, and we want to reciprocate that hospitality by sharing with them what we love most.
+                    </v-card-text>
+                  </v-card>
+                </v-flex>
+                <v-flex xs12 md4>
+                  <v-card flat class="transparent">
+                    <v-card-text class="text-center">
+                      <v-icon x-large class="orange--text text--lighten-2">mdi-face-outline</v-icon>
+                    </v-card-text>
+                    <v-card-title primary-title class="layout justify-center">
+                      <div class="headline text-center">Who We Are</div>
+                    </v-card-title>
+                    <v-card-text>
+                      Cras facilisis mi vitae nunc lobortis pharetra. Nulla volutpat tincidunt ornare.
+                      Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+                      Nullam in aliquet odio. Aliquam eu est vitae tellus bibendum tincidunt. Suspendisse potenti.
+                    </v-card-text>
+                  </v-card>
+                </v-flex>
+              </v-layout>
+            </v-container>
+          </v-flex>
+        </v-layout>
+      </section>
+
+      <section>
+        <v-parallax src="assets/section.jpg" height="380">
+          <v-layout column align-center justify-center>
+            <div class="headline white--text mb-4 text-center">Web development has never been easier</div>
+            <em>Kick-start your application today</em>
+            <v-btn
+              class="mt-12"
+              color="blue lighten-2"
+              dark
+              large
+              href="/pre-made-themes"
+            >
+              Get Started
+            </v-btn>
+          </v-layout>
+        </v-parallax>
+      </section>
+
+      <section>
+        <v-container grid-list-xl>
+          <v-layout row wrap justify-center class="my-12">
+            <v-flex xs12 sm4>
+              <v-card flat class="transparent">
+                <v-card-title primary-title class="layout justify-center">
+                  <div class="headline">Company info</div>
+                </v-card-title>
+                <v-card-text>
+                  Cras facilisis mi vitae nunc lobortis pharetra. Nulla volutpat tincidunt ornare.
+                  Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+                  Nullam in aliquet odio. Aliquam eu est vitae tellus bibendum tincidunt. Suspendisse potenti.
+                </v-card-text>
+              </v-card>
+            </v-flex>
+            <v-flex xs12 sm4 offset-sm1>
+              <v-card flat class="transparent">
+                <v-card-title primary-title class="layout justify-center">
+                  <div class="headline">Contact us</div>
+                </v-card-title>
+                <v-card-text>
+                  Cras facilisis mi vitae nunc lobortis pharetra. Nulla volutpat tincidunt ornare.
+                </v-card-text>
+                <v-list class="transparent">
+                  <v-list-item>
+                    <v-list-item-action>
+                      <v-icon class="blue--text text--lighten-2">mdi-phone</v-icon>
+                    </v-list-item-action>
+                    <v-list-item-content>
+                      <v-list-item-title>777-867-5309</v-list-item-title>
+                    </v-list-item-content>
+                  </v-list-item>
+                  <v-list-item>
+                    <v-list-item-action>
+                      <v-icon class="blue--text text--lighten-2">mdi-map-marker</v-icon>
+                    </v-list-item-action>
+                    <v-list-item-content>
+                      <v-list-item-title>Chicago, US</v-list-item-title>
+                    </v-list-item-content>
+                  </v-list-item>
+                  <v-list-item>
+                    <v-list-item-action>
+                      <v-icon class="blue--text text--lighten-2">mdi-email</v-icon>
+                    </v-list-item-action>
+                    <v-list-item-content>
+                      <v-list-item-title>john@vuetifyjs.com</v-list-item-title>
+                    </v-list-item-content>
+                  </v-list-item>
+                </v-list>
+              </v-card>
+            </v-flex>
+          </v-layout>
+        </v-container>
+      </section>
+
+      <v-footer color="blue darken-2">
+        <v-layout row wrap align-center>
+          <v-flex xs12>
+            <div class="white--text ml-4">
+              Made with
+              <v-icon class="red--text">mdi-heart</v-icon>
+              by <a class="white--text" href="https://vuetifyjs.com" target="_blank">Vuetify</a>
+              and <a class="white--text" href="https://github.com/vwxyzjn">Costa Huang</a>
+            </div>
+          </v-flex>
+        </v-layout>
+      </v-footer>
+    </v-content>
+  </v-app>
+ </div>
+ <script src="https://cdn.jsdelivr.net/npm/vue@2.x/dist/vue.js"></script>
+ <script src="https://cdn.jsdelivr.net/npm/vuetify@2.x/dist/vuetify.js"></script>
+ <script>
+   new Vue({
+    el: '#app',
+    vuetify: new Vuetify(),
+    data () {
+      return {
+        title: ''
+      }
+    }
+  })
+ </script>
+</body>
+</html>
